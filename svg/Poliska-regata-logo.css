@@ -1,6 +1,5 @@
 @charset "UTF-8";
-
-#flowers {
+#flower {
 	fill:#5CA47A;
 }
 #water {
@@ -10,24 +9,11 @@
 	fill:#A8CF45;
 	fill-rule:nonzero;
 }
-#regata {
-	fill:#00A859;
-	fill-rule:nonzero;
-}
 #poliska {
 	fill:#00A859;
 	fill-rule:nonzero;
 }
-
-@media only screen and (max-width: 180px) {
-
-	#flowers,
-	#water, 
-	#kayak, 
-	#regata,
-	#poliska {
-	fill: green;
-	}
-
-
+#regata {
+	fill:#00A859;
+	fill-rule:nonzero;
 }
