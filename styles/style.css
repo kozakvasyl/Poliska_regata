@@ -1,0 +1,38 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#logo {
+	width: 100%;
+	
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+}
+h1 {
+	font-size: 30pt;
+	color: #a8cf45;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	h1 {
+	font-size: 20pt;
+	}
+	.logo {
+	width: 80%;
+	}
+}
