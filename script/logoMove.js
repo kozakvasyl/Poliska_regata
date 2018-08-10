@@ -1,5 +1,7 @@
 
 
-var logosElem = document.getElementById('logo');
+var logosElem = document.getElementById('regata');
 
-logosElem.style.color = "black";
+logosElem.addEventListener("click", function(){
+	this.style.fill = 'black';
+});

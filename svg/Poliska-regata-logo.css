@@ -14,3 +14,7 @@
 #regata {
 	fill:#00A859;
 }
+
+.visible {
+	fill: black;
+}

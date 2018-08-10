@@ -11,10 +11,6 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-#logo {
-	width: 100%;
-	
-}
 
 .logo {
 	display: flex;
@@ -36,3 +32,22 @@ h1 {
 	width: 80%;
 	}
 }
+
+/*styles from logo*/
+
+#flower {
+	fill:#5CA47A;
+}
+#water {
+	fill:#0098DA;
+}
+#kayak {
+	fill:#A8CF45;
+}
+#poliska {
+	fill:#00A859;
+}
+#regata {
+	fill:#00A859;
+}
+
